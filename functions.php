@@ -156,3 +156,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load Wordpress-Bootstrap NavWalker
+ */
+require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
